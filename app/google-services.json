@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "488203991888",
+    "firebase_url": "https://themaalishop-69ac4.firebaseio.com",
+    "project_id": "themaalishop-69ac4",
+    "storage_bucket": "themaalishop-69ac4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488203991888:android:696b5b29f5e5d220",
+        "android_client_info": {
+          "package_name": "com.aman.apps.aman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488203991888-rqpeln3fj6i06mngsjg1shs7g0qkrcsf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aman.apps.aman",
+            "certificate_hash": "c944d5d2247e854b3dafe01083a50f56c1e09f2d"
+          }
+        },
+        {
+          "client_id": "488203991888-7n69j6rki5plrtutmfn9jculh2pojub9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAErkxJAeiMITNVUqMRWhvOe4u5SP1O7ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488203991888-7n69j6rki5plrtutmfn9jculh2pojub9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

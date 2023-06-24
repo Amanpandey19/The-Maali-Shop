@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f4d50</color>
+    <color name="colorPrimaryDark">#2f383a</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="black">#000000</color>
+    <color name="gray">#9f9f9f</color>
+    <color name="gray_lite">#649f9f9f</color>
+    <color name="bg_gray">#e6e6e5</color>
+    <color name="brown">#633C07</color>
+    <color name="green">#00C853</color>
+    <color name="blue">#047BD5</color>
+    <color name="otherblue">#2E44CA</color>
+    <color name="white">#FFFDFD</color>
+    <color name="light_gray">#e6e6e5</color>
+    <color name="lightpink">#EB618B</color>
+    <color name="White">#FFFDFD</color>
+    <color name="lightbrown">#DCBE98</color>
+    <color name="orange">#FF5722</color>
+    <color name="dark_orange">#BD3406</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPurple">#983CFF</color>
+    <color name="colorPurpleT">#64983cff</color>
+    <color name="colorBlue">#2FB4FF</color>
+    <color name="colorBlueT">#642fb4ff</color>
+    <color name="red">#ff0000</color>
+    <color name="light_green">#B4F3B4</color>
+    <color name="other_green">#00e500</color>
+    <color name="yellow">#ffff00</color>
+    <color name="amber">#FFC200</color>
+    <color name="blue_selected">#2196F3</color>
+    <color name="blue_delfault">#BBDEFB</color>
+    <color name="loader_defalut">#44ffffff</color>
+    <color name="loader_selected">#ffffff</color>
+
+
+</resources>

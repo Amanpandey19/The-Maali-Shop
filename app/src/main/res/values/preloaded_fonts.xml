@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/akronim</item>
+        <item>@font/aldrich</item>
+        <item>@font/amaranth_italic</item>
+        <item>@font/amiri_bold_italic</item>
+        <item>@font/arizonia</item>
+        <item>@font/atma_semibold</item>
+        <item>@font/averia_gruesa_libre</item>
+        <item>@font/cantora_one</item>
+        <item>@font/caveat_bold</item>
+        <item>@font/contrail_one</item>
+        <item>@font/lato_italic</item>
+        <item>@font/lato_light_italic</item>
+    </array>
+</resources>

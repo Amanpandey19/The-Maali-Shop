@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:foregroundGravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="30dp"
+        android:id="@+id/text_explore"
+        android:fontFamily="@font/amaranth_italic"
+        android:layout_height="wrap_content"
+        android:text="Explore our work "/>
+    <View
+        android:layout_width="215dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/text_explore"
+        android:background="@color/white"/>
+    <GridView
+        android:layout_width="match_parent"
+        android:numColumns="auto_fit"
+        android:id="@+id/picturesgrid"
+        android:padding="5dp"
+        android:layout_marginTop="70dp"
+        android:columnWidth="100dp"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:layout_height="match_parent">
+
+    </GridView>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        fab:menu_animationDelayPerItem="55"
+        fab:menu_buttonSpacing="0dp"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_colorNormal="@color/blue"
+         fab:menu_colorRipple="@color/white"
+       android:padding="8dp"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_position="left"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_left"
+        fab:menu_labels_showShadow="true"
+        fab:menu_labels_textSize="15sp"
+        fab:menu_openDirection="up"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="4dp"
+        fab:menu_showShadow="true"
+        fab:menu_labels_singleLine="false"
+        android:layout_alignParentRight="true">
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_label="Contact Us"
+            android:id="@+id/fab_1"
+            android:background="@android:color/transparent"
+            fab:fab_size="mini"
+            android:src="@drawable/phonegallery"/>
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_label="How does this work"
+            android:id="@+id/fab_2"
+            fab:fab_size="mini"
+            android:background="@android:color/transparent"
+            android:src="@drawable/help"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/image_product_page_slider"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+               android:transitionName="imagetransition" >
+            </android.support.v4.view.ViewPager>
+
+            <LinearLayout
+                android:id="@+id/image_product_page_dots"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/image_product_page_slider"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+            <com.alexzh.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="380dp"
+                android:src="@drawable/offerten2" />
+        </RelativeLayout>
+
+
+
+</RelativeLayout>

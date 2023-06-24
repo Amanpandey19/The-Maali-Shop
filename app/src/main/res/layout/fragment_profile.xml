@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+           android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <com.alexzh.circleimageview.CircleImageView
+                android:id="@+id/userimage_profile"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:foregroundGravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/user"
+                app:view_borderColor="@color/otherblue"
+                app:view_borderWidth="4dp" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/otherblue"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:id="@+id/changeuserpicture"
+                    android:text="Change Picture"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@color/otherblue"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                android:id="@+id/username_profile"
+                android:drawableLeft="@drawable/username"
+                android:drawableStart="@drawable/username"
+                android:gravity="center|start"
+                android:text="  "
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@color/otherblue"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                android:id="@+id/email_profile"
+                android:drawableLeft="@drawable/mail"
+                android:drawableStart="@drawable/mail"
+                android:gravity="center|start"
+                android:text="  "
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@color/otherblue"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                android:drawableLeft="@drawable/phonenum"
+                android:drawableStart="@drawable/phonenum"
+                android:gravity="center|start"
+                android:id="@+id/phone_no_profile"
+                android:text=" "
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@color/otherblue"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                android:drawableLeft="@drawable/location"
+                android:drawableStart="@drawable/location"
+                android:gravity="center|start"
+                android:id="@+id/address_profile"
+                android:text="  "
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/explorshop"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="30dp"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="15dp"
+                android:text="Explore The Mali Shop"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

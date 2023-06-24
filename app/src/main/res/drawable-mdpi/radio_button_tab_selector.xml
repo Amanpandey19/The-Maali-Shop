@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--If radio button is checked. -->
+    <item android:state_checked="true">
+        <layer-list>
+            <!-- Bottom blue color layer. -->
+            <item>
+                <color android:color="@color/green" />
+            </item>
+            <!-- Top orange color layer. -->
+            <item android:bottom="5dp" android:drawable="@color/White" />
+        </layer-list>
+    </item>
+
+    <!--If radio button is unchecked. -->
+    <item android:state_checked="false">
+        <layer-list>
+            <!-- Bottom blue color layer. -->
+            <item>
+                <color android:color="@color/green" />
+            </item>
+            <!-- Top orange color layer. -->
+            <item android:bottom="0dp" android:drawable="@color/White"/>
+        </layer-list>
+    </item>
+
+</selector>
