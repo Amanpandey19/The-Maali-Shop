@@ -82,9 +82,5 @@ Here are some screenshots of app
 <img src="works.jpg" width=25% height=50% align=left>
 
 
-
-## License
-This project is licensed under the MIT License - see the [License.md](License.md) file for details
-
 For further clarfications or doubts you can connect with me at amanpandey12398@gmail.com 
 
