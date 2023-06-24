@@ -2,9 +2,7 @@
 <img src="logo.png" width="200" height="200">
 </p>
 
-# Shoply
-
-Online shopping Mobile App Project For Android Development Tutorials on : https://goo.gl/Z6v71w
+# The Maali Shop
 
 ## Requirement
 -Android studio : 3.0.1
@@ -13,7 +11,7 @@ Online shopping Mobile App Project For Android Development Tutorials on : https:
 
 -min sdk : 15
 
--target sdk : 27
+-target sdk : 32
 
 -language : java
 
@@ -31,20 +29,26 @@ Online shopping Mobile App Project For Android Development Tutorials on : https:
 
 -shopping cart
 
--one level category
+-edit profile
 
--brands
+-multiple services such as plant gifting, terrace garden corporate gifting
+
+-view product(slide for more images)
+
+-view product details
+
+-add to cart
 
 -filters
 
 -search
 
 ## Techniques
-RecycleView, ToolBar, CardView, Volley, Gson, ListView, NestedScroll, DrawerLayout, ActionBarDrawerToggle, NavigationView, ProgressBar, DialogFragment, Fragments, BottomSheet and more
+RecycleView, ToolBar, CardView, Volley, Json, ListView, NestedScroll, DrawerLayout, ActionBarDrawerToggle, NavigationView, ProgressBar, DialogFragment, Fragments, BottomSheet Firebase database, authentication, storage and more.
 
 ## Develeped By
 * Auther : Aman Pandey
-* Email  : hosam.azzam2@gmail.com
+* Email  : amanpandey12398@gmail.com
 
 ## License
 This project is licensed under the MIT License - see the [License.md](License.md) file for details
