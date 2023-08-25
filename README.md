@@ -44,10 +44,10 @@
 -search
 
 ## Techniques
-RecycleView, ToolBar, CardView, Volley, Json, ListView, NestedScroll, DrawerLayout, ActionBarDrawerToggle, NavigationView, ProgressBar, DialogFragment, Fragments, BottomSheet Firebase database, authentication, storage and more.
+RecyclerView, ToolBar, CardView, Volley, Json, ListView, NestedScroll, DrawerLayout, ActionBarDrawerToggle, NavigationView, ProgressBar, DialogFragment, Fragments, BottomSheet, Firebase database, authentication, storage and more.
 
-## Develeped By
-* Auther : Aman Pandey
+## Developed By
+* Author : Aman Pandey
 * Email  : amanpandey12398@gmail.com
 
 Here are some screenshots of app
